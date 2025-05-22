@@ -4,7 +4,7 @@
 #let centuria = "A22b"
 #let tl_number = 4*/
 #import "config.typ": * 
-#import "even_more_config.typ": *
+#import "constants.typ": *
 
 
 #let blue_cell(inner_text) = table.cell(fill: nak_color)[

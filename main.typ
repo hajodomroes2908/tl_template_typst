@@ -1,6 +1,6 @@
 #import "cover.typ":  *
 #import "config.typ": language
-#import "even_more_config.typ": font_size
+#import "constants.typ": font_size
 
 #set text(lang: language)
 // nak logo as page header
@@ -31,7 +31,7 @@
 // youre content goes here
 = Introduction
 #include "content/1_introduction.typ"
-
+image
 = Fundamentals
 #include "content/2_fundamentals.typ"
 
